@@ -28,8 +28,29 @@
  
 }
 
-
+/* Estilos para el contenedor */
+.container {
+  display: flex;
+  align-items: center; /* Alinea los elementos verticalmente */
+ 
   
+}
+
+/* Estilos para el icono de anteojos */
+.anteojos {
+  font-size: 24px;
+  margin-right: 10px; /* Espacio entre el icono y el texto */
+  margin-left: 10px;
+}
+
+/* Estilos para el texto de Nuestros Productos */
+.nuestrosProductos {
+  font-size: 18px;
+}
+
+
+
+
 .Input:focus {
     border-color: #007bff;
     box-shadow: 0 0 6px rgba(0, 123, 255, 0.5);

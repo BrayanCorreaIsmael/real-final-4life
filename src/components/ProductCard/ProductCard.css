@@ -3,13 +3,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border: 2px dashed black;
     margin: 0 auto; /* Centra el contenedor en la pantalla */
   }
   
   /* Estilos para el contenedor de la imagen */
   .product-image {
     display: inline-flex;
-    border: 2px solid black;
+    border: 2px none black;
     border-radius: 10px;
     margin: 1px;
     padding: 1px;
@@ -31,5 +32,19 @@
     margin-left: 10px; /* Ajusta el espacio entre la imagen y el texto */
   }
   
+  /* Estilos para el botón redondo */
+.button-primary-productcard {
+  display: inline-block;
+  background-color: red; /* Color rojo para el fondo del botón */
+  color: white; /* Color blanco para el texto del botón */
+  text-align: center;
+  border: none;
+  border-radius: 10px; /* Hace que el botón sea redondo */
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
   
   

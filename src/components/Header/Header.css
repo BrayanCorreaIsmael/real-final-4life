@@ -6,29 +6,12 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #2e7a91;
+   background-color: #e6e4e4; 
   color: #fff;
 }
 
-/* Estilos para el contenedor del logo y el nombre */
-.logo-container {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-}
 
-/* Estilos para el logotipo de Ray-Ban */
-.logo {
-  width: 50px;
-  height: 50px;
-  margin-right: 10px;
-}
 
-/* Estilos para el título "Ray-Ban" */
-h1 {
-  font-size: 24px;
-  margin: 0;
-}
 
 /* Estilos para el contenedor del menú de navegación */
 /* styles.css */
@@ -38,7 +21,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-color: #2e7a91;
+  
   color: #fff;
 }
   /* Estilos para pantallas de 320x420px */
@@ -53,7 +36,7 @@ h1 {
 .button-primary {
   padding: 10px 20px;
   margin: 5px;
-  background-color: #0078e7;
+  background-color: #e70000;
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
@@ -67,7 +50,7 @@ h1 {
 }
 
 .button-primary:hover {
-  background-color: #005da9;
+  background-color: #0a3961;
 }
 
 /* Estilos para el contenedor de los botones */
@@ -78,4 +61,37 @@ h1 {
 /* Añadir espacio entre los botones */
 .button-container .button-primary:not(:last-child) {
   margin-right: 10px;
+}
+
+/* Estilos para el contenedor principal del header */
+.header-container {
+  width: 100%;
+  height: 300px; /* Altura deseada del header */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://images.unsplash.com/photo-1644105637454-4943bc520c6a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Estilos para el contenedor del logo */
+.logo-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  /* border: 2px solid #3498db;  Color celeste para el borde */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column; /* Mostrar los elementos en una columna */
+  align-items: center; /* Centrar elementos horizontalmente */
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo transparente para el contenedor */
+}
+
+/* Estilos para el texto del logo */
+.logo-container h1 {
+  color: #333; /* Color del texto del logo */
+  font-size: 24px;
+  margin-top: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra suave para mejorar la legibilidad */
 }

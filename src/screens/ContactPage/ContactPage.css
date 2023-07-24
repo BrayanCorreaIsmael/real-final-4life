@@ -1,0 +1,43 @@
+/* Estilos para el formulario */
+.formulario {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #3498db; /* Color celeste para el borde */
+    border-radius: 10px;
+  }
+  
+  /* Estilos para las etiquetas */
+  .formulario label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff; /* Color celeste para las etiquetas */
+    font-weight: bold;
+  }
+  
+  /* Estilos para los campos de entrada */
+  .formulario input,
+  .formulario textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #1bb1ec; /* Color celeste para los bordes de los campos */
+    border-radius: 5px;
+  }
+  
+  /* Estilos para el botón de enviar */
+  .formulario button[type="submit"] {
+    background-color: #000000; /* Color celeste para el fondo del botón */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el botón de enviar al pasar el mouse por encima */
+  .formulario button[type="submit"]:hover {
+    background-color: #2980b9; /* Un tono más oscuro de celeste al pasar el mouse por encima */
+  }
+  
+

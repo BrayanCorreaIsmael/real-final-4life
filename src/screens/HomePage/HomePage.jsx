@@ -23,12 +23,19 @@ const HomePage = () => {
 
   <input className='Input' placeholder='Busca con el nombre del producto' value={searchProduct} onChange={(e) => setSearchProduct(e.target.value)}/>
   <div>
-    <h2>Precio</h2>
+    <h2>Buscador por precios</h2>
     <div className='Container-maxmin'>
       <input className='minmax' type='text' value={min} onChange={(e) => setMin(Number(e.target.value))}/>
       <input className='minmax' type='text' value={max} onChange={(e) => setMax(Number(e.target.value))}/>
     </div>
   </div>
+  
+  <div className='container'>
+  <span className='anteojos'> &#128374; </span>
+  <p className='nuestrosProductos'> Nuestros Productos </p>
+  <span className='anteojos'> &#128374;</span>
+</div>
+
   <div>
     {
       currentProducts.length > 0 
@@ -49,28 +56,3 @@ const HomePage = () => {
 export default HomePage
 
 
-
-// <div>
-        
-    //     <h1>Lista de productos</h1>
-
-    //     <input placeholder='busca el nombre del producto' value={searchProduct} onChange={(e) => setSearchProduct(e.target.value)}/>
-    //     <div>
-    //       <h2>Precio</h2>
-    //       <div>
-    //         <input type='text' value={min} onChange={(e) => setMin(Number(e.target.value))}/>
-    //         <input type='text' value={max} onChange={(e) => setMax(Number(e.target.value))}/>
-    //       </div>
-    //     </div>
-    //     <div>
-    //         {
-    //           currentProducts.length > 0 
-    //           ?
-    //           currentProducts.map(producto  => (
-    //           <ProductCard producto={producto} key={producto.id}/>
-    //           ))
-    //           :
-    //           <h2>No se encuentra ningun producto bajo esos parametros</h2>
-    //       }
-    //     </div>
-    // </div>
