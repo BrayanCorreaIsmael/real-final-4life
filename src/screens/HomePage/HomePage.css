@@ -1,0 +1,99 @@
+/* styles.css */
+
+/* Estilos para el contenedor principal de la página */
+.product-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #000000;
+  }
+  
+  /* Estilos para el título "Lista de productos" */
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el input de búsqueda */
+.Input{
+    padding: 10px 15px;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  outline: none;
+  transition: border-color 0.3s;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+ 
+}
+
+
+  
+.Input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 6px rgba(0, 123, 255, 0.5);
+  }
+  
+
+  
+  /* Estilos para los inputs de precio */
+  .price-inputs {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin: 0 auto;
+  }
+  
+  .price-inputs input[type='text'] {
+    width: 45%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #0a0a0a;
+    border-radius: 4px;
+  }
+  
+  /* Estilos para la lista de productos */
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  /* Estilos para el mensaje de "No se encuentra ningún producto bajo esos parámetros" */
+  h2 {
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+  }
+
+.Container-maxmin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.minmax {
+    flex: 1;
+    padding: 10px 15px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    transition: border-color 0.3s;
+    font-size: 16px;
+    
+    
+}
+
+@media (max-width: 320px) {
+    .Container-maxmin{
+        flex-direction: column;
+        align-items: stretch;
+    }
+  }
+  

@@ -1,0 +1,81 @@
+/* styles.css */
+
+/* Estilos para el contenedor del encabezado */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #2e7a91;
+  color: #fff;
+}
+
+/* Estilos para el contenedor del logo y el nombre */
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el logotipo de Ray-Ban */
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+/* Estilos para el título "Ray-Ban" */
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Estilos para el contenedor del menú de navegación */
+/* styles.css */
+
+/* Estilos para el contenedor del menú de navegación */
+.navegador {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #2e7a91;
+  color: #fff;
+}
+  /* Estilos para pantallas de 320x420px */
+@media (max-width: 320px){
+  .navegador {
+    flex-direction: row;
+    /* align-items: center; */
+  }
+}
+
+/* Estilos para los botones de navegación */
+.button-primary {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #0078e7;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px; /* Nuevo tamaño de fuente para pantallas pequeñas */
+}
+  /* Estilos para pantallas de 320x420px */
+@media (max-width: 320px) {
+  .button-primary{
+    margin: 2px; /* Ajusta el margen entre los botones */
+  }
+}
+
+.button-primary:hover {
+  background-color: #005da9;
+}
+
+/* Estilos para el contenedor de los botones */
+.button-container {
+  display: flex;
+}
+
+/* Añadir espacio entre los botones */
+.button-container .button-primary:not(:last-child) {
+  margin-right: 10px;
+}
