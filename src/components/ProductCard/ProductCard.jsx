@@ -11,9 +11,9 @@ const ProductCard = ({producto}) => {
   </div>
   <div className="product-details">
     <h2>{producto.nombre}</h2>
-    <Link to={'/detail/' + producto.id} className='button-primary-productcard'>Ver detalle</Link>
     <h3>Precio: ${producto.precio}</h3>
     <p>Descripcion: {producto.descripcion}</p>
+    <Link to={'/detail/' + producto.id} className='button-primary-productcard'>Ver detalle</Link>
    
   </div>
 </div>

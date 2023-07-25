@@ -1,0 +1,42 @@
+/* Estilos para los botones */
+.button {
+    font-size: 18px; /* Ajusta el tamaño de fuente para hacer los botones más grandes */
+    padding: 12px 20px; /* Ajusta el padding para hacer los botones más grandes */
+    border: none;
+    background-color: red; /* Color rojo para el fondo del botón */
+    color: white; /* Color blanco para el texto del botón */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer;
+  }
+  
+  /* Estilos para el botón "Confirmar" */
+  .confirm-button {
+    font-size: 18px;
+    padding: 12px 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el contenedor de los botones */
+  .details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Estilos para el contenedor de la cantidad y el botón "+" */
+  .quantity-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Estilos para el número del producto */
+  .number-confirm {
+    font-size: 33px;
+    color: black;
+    margin-right: 10px; /* Agrega un margen derecho para separar del botón "+" */
+  }
+  

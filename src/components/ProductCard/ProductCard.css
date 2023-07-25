@@ -46,5 +46,47 @@
   cursor: pointer;
 }
 
+/* Estilos para el contenedor del producto */
+.product-card {
+  display: flex;
+  margin-bottom: 20px; /* Separación entre cada product-card */
+}
+
+/* Estilos para la imagen del producto */
+.product-image {
+  flex: 0 0 200px; /* Ancho fijo de 200px para la imagen */
+  margin-right: 20px; /* Espacio entre la imagen y los detalles */
+}
+
+/* Estilos para el contenedor de los detalles del producto */
+.product-details {
+  flex: 1; /* El contenido ocupará el espacio restante */
+}
+
+/* Estilos para el botón de Ver detalle */
+.button-primary-productcard {
+  display: inline-block;
+  background-color: red; /* Color rojo para el fondo del botón */
+  color: white; /* Color blanco para el texto del botón */
+  text-align: center;
+  border: none;
+  border-radius: 10px; /* Hace que el botón sea redondo */
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px; /* Espacio entre el botón y los demás elementos */
+}
+
+/* Estilos para el precio */
+.product-details h3 {
+  margin-top: 10px; /* Espacio entre el precio y los demás elementos */
+}
+
+/* Estilos para la descripción */
+.product-details p {
+  margin-top: 5px; /* Espacio entre la descripción y los demás elementos */
+}
+
   
   

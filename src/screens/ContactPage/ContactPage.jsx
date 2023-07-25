@@ -5,6 +5,7 @@ const ContactPage = () => {
   return (
     <div>
       <form className="formulario">
+        <p>Todos los campos con * necesitan ser completados </p>
         <label htmlFor="nombre">*Nombre:</label>
         <input name="nombre" id="nombre" />
         <label htmlFor="email">*Email:</label>
