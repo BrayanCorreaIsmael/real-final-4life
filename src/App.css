@@ -1,4 +1,6 @@
-
+.body{
+  overflow-x: hidden;
+}
 .button-primary {
     background-color: #3498db;
     padding: 10px 20px;
