@@ -1,13 +1,19 @@
 /* styles.css */
 
 /* Estilos para el contenedor principal de la página */
+/* styles.css */
+
 .product-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    color: #000000;
-  }
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #000000;
+  overflow-y: hidden; /* Evita el scroll vertical */
+}
+
+/* ... (otros estilos existentes) ... */
+
   
   /* Estilos para el título "Lista de productos" */
   h1 {
@@ -111,7 +117,7 @@
     
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 720px) {
     .Container-maxmin{
         flex-direction: column;
         align-items: stretch;

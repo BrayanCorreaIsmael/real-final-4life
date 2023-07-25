@@ -6,9 +6,9 @@ function Footer() {
     <footer className='footerStyles'>
     
     <div className='infoStyles'>
-      <p>Dirección: 1234 Calle Principal, Ciudad, País</p>
-      <p>Teléfono: +1 234 567 890</p>
-      <p>Email: info@ray-ban.com</p>
+      <p>&#127750; Dirección: 1234 Calle Principal, Ciudad, País</p>
+      <p> &#128222; Teléfono: +1 234 567 890</p>
+      <p>&#9993; Email: info@ray-ban.com</p>
     </div>
     
   </footer>

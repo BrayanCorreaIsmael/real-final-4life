@@ -56,13 +56,13 @@ function Header() {
          
       <nav className='navegador'>
         <NavLink to='/cart' className='button-primary'>
-          Carrito
+        &#128722; Carrito
         </NavLink>
         <NavLink to='/' className='button-primary'>
-         Home
+        &#127968; Home
         </NavLink>
         <NavLink to='/contact' className='button-primary'>
-          Contacto
+        &#128229; Contacto
         </NavLink>
       </nav>
       
